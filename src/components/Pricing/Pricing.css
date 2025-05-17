@@ -1,0 +1,88 @@
+.pricing-section {
+  padding: 1rem;
+  margin: 100px auto;
+}
+
+.pricing-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.pricing-intro {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+
+  margin: 0 auto;
+}
+
+.pricing-card {
+  border: 1px solid #ffcf40;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  color: #ffcf40;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2rem;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.desc {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  color: #676767;
+  font-size: 1.2rem;
+}
+
+.check-icon {
+  color: #ffcf40;
+  margin-right: 0.5rem;
+}
+
+/* .btn {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+/* .btn:hover {
+  background-color: #005fa3;
+} */
