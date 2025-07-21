@@ -7,6 +7,7 @@ import {
   FaCamera,
   FaTools,
   FaCheckCircle,
+  FaPhotoVideo,
 } from "react-icons/fa";
 
 const services = [
@@ -30,6 +31,7 @@ const services = [
       "Corporate & Conference Filming",
       "Behind-the-Scenes & Highlights Reels",
       "Interview & Testimonial Videos",
+      "Baby-shower, graduation, birthday & small-parties Coverage",
     ],
   },
   {
@@ -62,6 +64,18 @@ const services = [
       "Audio Recording Gear (Microphones, Mixers)",
       "Drones & Stabilizers",
       "Editing Suites & Post-Production Workstations",
+    ],
+  },
+  {
+    title: "Photography (indoor/outdoor)",
+    icon: <FaPhotoVideo />,
+    details: [
+      "Wedding Photography",
+      "Concert & Festival Photography",
+      "Corporate & Conference Photography",
+      "Behind-the-Scenes & Highlights Photography",
+      "Interview & Testimonial Photography",
+      "Baby-shower, graduation, birthday & small-parties photography",
     ],
   },
 ];

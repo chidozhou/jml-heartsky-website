@@ -10,6 +10,7 @@ import {
   FaPhone,
   FaMapMarkerAlt,
   FaPaperPlane,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 
@@ -21,7 +22,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "4b75268e-ee95-4769-a4cc-6013200a574b");
+    formData.append("access_key", "9dbfd2fa-e608-4a4d-9f9e-6a0894f16529");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -46,20 +47,24 @@ const Contact = () => {
           {/* <MdMessage className="icon" /> */}
         </h3>
         <p>
-          Feel free to reach out through contact form or find our contact
-          information below. Your feedback, questions, and suggestions are
-          important to us as we strive to provide exceptional service to our
-          university community.
+          Feel free to book your session or reach out through contact form or
+          find our contact information below. Your feedback, questions, and
+          suggestions are important to us as we strive to provide exceptional
+          service to our university community.
         </p>
         <ul>
           <li>
-            <FaEnvelope className="icon" /> info@jmlheartsky.com
+            <FaEnvelope className="icon" /> heartsky.pictures@gmail.com
           </li>
           <li>
-            <FaPhone className="icon" /> +254 123-456-7890
+            <FaPhone className="icon" /> +256 743 587 602
           </li>
           <li>
-            <FaMapMarkerAlt className="icon" /> JML HeartSky, Kenya
+            <FaWhatsapp className="icon" /> +256 781 985 003
+          </li>
+          <li>
+            <FaMapMarkerAlt className="icon" /> Mondo Africa Building Entebbe
+            Road, Kitende Stage
           </li>
         </ul>
       </div>

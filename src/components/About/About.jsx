@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import about_img from "../../assets/about.png";
+import about_img from "../../assets/about.jpg";
 import play_icon from "../../assets/play-icon.png";
 const About = ({ setPlayState }) => {
   return (
@@ -18,24 +18,25 @@ const About = ({ setPlayState }) => {
       </div>
       <div className="about-right">
         <h3>ABOUT US</h3>
-        <h2>Nurturing the Future of Education</h2>
+        <h2>Dream. Create. Inspire.</h2>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-          blanditiis officiis sed obcaecati doloribus impedit, distinctio sint
-          commodi magnam, quam enim dolor? Distinctio et ipsum esse ex
-          voluptatem officiis sint!
+          At Heartsky Pictures Ltd, we believe that every moment tells a story
+          waiting to be captured. Founded by a passionate team of creatives, we
+          specialize in professional video production and photography services
+          that bring your unique vision to life.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores,
-          mollitia nemo. Saepe architecto necessitatibus nihil quibusdam
-          consequatur laudantium aspernatur ab beatae non quasi. Labore maiores
-          quas provident beatae laboriosam! Asperiores.
+          Whether it's a wedding, music video, documentary, or custom project,
+          our dedicated team utilizes state-of-the-art equipment and innovative
+          techniques to ensure that every frame is a work of art. We pride
+          ourselves on our commitment to excellence, creativity, and customer
+          satisfaction, working closely with our clients to understand their
+          needs and deliver unforgettable visuals that resonate with audiences.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          molestias ullam velit natus eveniet placeat, ducimus, ipsum dolore
-          officiis, mollitia minima corporis maiores provident. Aliquid optio
-          eaque eum dolor unde!
+          Join us on a journey of storytelling through captivating imagery and
+          let us help you immortalize your cherished moments.
         </p>
       </div>
     </div>
